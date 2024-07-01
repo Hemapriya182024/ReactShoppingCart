@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.header{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: auto;
+  cursor: pointer;
+  user-select: none;
+  flex-wrap: wrap;
+  margin: 20px 0 10px 0;
+  padding: 10px 0;
+}
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+}
+ul li{
+  display: inline;
+  padding: 0 10px;
+}
+h1{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+.cart{
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  width: auto;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: .3s;
+}
+.cart:hover{
+  background-color: black;
+}
+.cart:hover .cart-title,
+.cart:hover .icon{
+  color: #fff;
+}
+.cart-title{
+  display: inline;
+  font-size: 1rem;
+  margin: 0;
+
+}
+.icon{
+  font-size: 1.4rem;
+  
+}
+.count{
+  background-color: black;
+  color: #fff;
+  padding: 0px 8px;
+  align-items: center;
+  margin: 0;
+  border-radius: 50%;
+  font-size: .9rem !important; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.product-container{
+  margin-top: 50px;
+}
+
+img{
+  width: 50%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  border: none;
+}
+.card-content{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 25px rgba(0,0,0,.2);
+  border-radius: 25px;
+  padding-bottom: 10px;
+}
+.scrolled{
+  background-color: #ffffff;
+  transition: 1s; 
+  box-shadow: 0 15px 25px rgba(0,0,0,.3);
+}
+.banner{
+  background-image: url('https://media.istockphoto.com/id/1212679579/photo/mother-and-daughter-shopping-together-for-clothes-at-outdoor-street-market.webp?b=1&s=170667a&w=0&k=20&c=NIFcnl7YITUeYJOHCf_RGWYkfJJj84sNtz6WXwsNmDA=');
+}
+
+@media screen and (min-width:1200px){
+  .banner{
+    background: url(https://www.istockphoto.com/photo/mother-and-daughter-shopping-together-for-clothes-at-outdoor-street-market-gm1212679579-352114743?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fshopping&utm_medium=affiliate&utm_source=unsplash&utm_term=shopping%3A%3A%3A);
+    background-position: center;
+    background-image: 100%;
+    background-size: cover;
+    width: 95%;
+    height: 250px;
+    border-radius: 25px;
+    box-shadow: 0px 20px 25px rgba(0,0,0,.3);
+  } 
+}
+.title {
+  color: white;
+  text-align: center;
+  padding: 20px; /* Adding padding for better spacing */
+  background-color: black;
+  font-size: 24px; /* Adjusting font size */
+  font-weight: bold; /* Making text bold */
+  border-radius: 8px; /* Adding rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow */
+  margin-bottom: 20px; /* Creating space below the title */
+}
