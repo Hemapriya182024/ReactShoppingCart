@@ -1,9 +1,36 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Shopping Cart React App
 
-Currently, two official plugins are available:
+This is a simple shopping cart application built using React.js. It allows users to browse through a list of products, add them to the cart, and view the total number of items in the cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# ReactShoppingCart" 
+## Live Demo
+
+Check out the live demo [here](https://shopping-cart-react-mern.netlify.app/).
+
+## Features
+
+- **Product Listing**: Display of various products with images, titles, and prices.
+- **Add to Cart**: Ability to add products to the shopping cart.
+- **Cart Display**: Real-time display of the number of items in the cart in the navigation bar.
+- **Responsive Design**: Ensures compatibility and usability across various devices and screen sizes.
+
+## Technologies Used
+
+- **React**: Frontend JavaScript library for building user interfaces.
+- **CSS**: Styling and layout using CSS for visual enhancements.
+- **Netlify**: Deployment platform for hosting the application.
+
+
+
+## Deployment
+
+This project is deployed using Netlify. Any changes pushed to the main branch of the repository will automatically trigger a new deployment.
+
+## Contributing
+
+Contributions are welcome! Fork the repository and create a pull request with your improvements.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
